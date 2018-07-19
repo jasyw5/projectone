@@ -12,7 +12,7 @@
     <header class="row">
       <div class="col-3">
         <div class="dragpic">
-          <img src="splurty/app/views/layouts/dragqueenvector.jpg" />
+          <img src="splurty/app/assets/images/dragqueenvector.jpg">
         </div>
       </div>
       <div class="col-4 slogan">
@@ -28,6 +28,23 @@
 
     <br class="clear" />
 
+    <div class="container">
     <%= yield %>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+         <%= link_to "No, not this name. Have anymore?", "#", class: 'next-quote' %>
+        </div>
+        <div class="col-6 footer-blurb">
+          Prodly hacked in Kansas City, MO by <a href="http://thefirehoseproject.com">John Stahl</a><br />
+          Want to build your own drag name app - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </body>
 </html>
