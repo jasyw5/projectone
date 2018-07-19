@@ -1,5 +1,6 @@
 @import "bootstrap";
 
+
 .clear {
   clear: both;
 }
@@ -34,4 +35,15 @@ header {
 
 hr {
   clear: both;
+}
+
+#dragnamerandom {
+  font-family: 'kaushan_scriptregular';
+  font-size: 48px;
+}
+
+#dragnameauthor {
+  font-family: 'Pragati Narrow', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
 }
