@@ -12,14 +12,14 @@
     <header class="row">
       <div class="col-3">
         <div class="dragpic">
-          <img src="dragqueenvector.jpg">
+          <%= image_tag("dragqueenvector.jpg", height: '80') %>
         </div>
       </div>
       <div class="col-4 slogan">
         For men who need a womanly touch
       </div>
       <div class="col-5 links">
-        <%= link_to 'Add a Name', '#' %>
+        <%= link_to 'Add a Name', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
