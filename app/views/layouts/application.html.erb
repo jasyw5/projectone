@@ -11,9 +11,11 @@
   <body>
     <header class="row">
       <div class="col-3">
+        <%= link_to root_path, class: 'logo' do %>
         <div class="dragpic">
           <%= image_tag("dragqueenvector.jpg", height: '80') %>
         </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
         For men who need a womanly touch
@@ -36,7 +38,7 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-         <%= link_to "No, not this name. Have anymore?", "#", class: 'next-quote' %>
+         <%= link_to "No, not this name. Have anymore?", root_path, class: 'next-name' %>
         </div>
         <div class="col-6 footer-blurb">
           Prodly hacked in Kansas City, MO by <a href="http://thefirehoseproject.com">John Stahl</a><br />
